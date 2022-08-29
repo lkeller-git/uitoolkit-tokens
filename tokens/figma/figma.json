@@ -7,24 +7,24 @@
     "value": "{sys.font.label-small}",
     "type": "typography"
   },
-  "button-tertiary-large": {
+  "button-primary-large": {
     "frame": {
       "value": {
-        "height": "{comp.button-tertiary-large.frame.height}",
-        "paddingLeft": "{comp.button-tertiary-large.frame.paddingLeft}",
-        "paddingRight": "{comp.button-tertiary-large.frame.paddingRight}",
+        "height": "{comp.button-primary-large.frame.height}",
+        "paddingLeft": "{comp.button-primary-large.frame.paddingLeft}",
+        "paddingRight": "{comp.button-primary-large.frame.paddingRight}",
         "paddingTop": "0",
         "paddingBottom": "0",
-        "fill": "{action.tertiary.background}",
-        "border": "{comp.button-tertiary-large.frame.border}",
-        "borderWidth": "{comp.button-tertiary-large.frame.borderWidth}",
-        "borderRadius": "{comp.button-tertiary-large.frame.borderRadius}"
+        "fill": "{action.primary.background}",
+        "border": "{comp.button-primary-large.frame.border}",
+        "borderWidth": "{comp.button-primary-large.frame.borderWidth}",
+        "borderRadius": "{comp.button-primary-large.frame.borderRadius}"
       },
       "type": "composition"
     },
     "text": {
       "value": {
-        "fill": "{action.tertiary.foreground}",
+        "fill": "{action.primary.foreground}",
         "typography": "{label-large}"
       },
       "type": "composition"
@@ -53,22 +53,45 @@
       "type": "composition"
     }
   },
-  "button-tertiary-small": {
+  "button-tertiary-large": {
     "frame": {
       "value": {
-        "height": "{comp.button-tertiary-small.frame.height}",
-        "paddingLeft": "{comp.button-tertiary-small.frame.paddingLeft}",
-        "paddingRight": "{comp.button-tertiary-small.frame.paddingRight}",
+        "height": "{comp.button-tertiary-large.frame.height}",
+        "paddingLeft": "{comp.button-tertiary-large.frame.paddingLeft}",
+        "paddingRight": "{comp.button-tertiary-large.frame.paddingRight}",
+        "paddingTop": "0",
+        "paddingBottom": "0",
         "fill": "{action.tertiary.background}",
-        "border": "{comp.button-tertiary-small.frame.border}",
-        "borderWidth": "{comp.button-tertiary-small.frame.borderWidth}",
-        "borderRadius": "{comp.button-tertiary-small.frame.borderRadius}"
+        "border": "{comp.button-tertiary-large.frame.border}",
+        "borderWidth": "{comp.button-tertiary-large.frame.borderWidth}",
+        "borderRadius": "{comp.button-tertiary-large.frame.borderRadius}"
       },
       "type": "composition"
     },
     "text": {
       "value": {
         "fill": "{action.tertiary.foreground}",
+        "typography": "{label-large}"
+      },
+      "type": "composition"
+    }
+  },
+  "button-primary-small": {
+    "frame": {
+      "value": {
+        "height": "{comp.button-primary-small.frame.height}",
+        "paddingLeft": "{comp.button-primary-small.frame.paddingLeft}",
+        "paddingRight": "{comp.button-primary-small.frame.paddingRight}",
+        "fill": "{action.primary.background}",
+        "border": "{comp.button-primary-small.frame.border}",
+        "borderWidth": "{comp.button-primary-small.frame.borderWidth}",
+        "borderRadius": "{comp.button-primary-small.frame.borderRadius}"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "value": {
+        "fill": "{action.primary.foreground}",
         "typography": "{label-small}"
       },
       "type": "composition"
@@ -84,6 +107,27 @@
         "border": "{action.secondary.border}",
         "borderWidth": "{comp.button-secondary-small.frame.borderWidth}",
         "borderRadius": "{comp.button-secondary-small.frame.borderRadius}"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "value": {
+        "fill": "{action.tertiary.foreground}",
+        "typography": "{label-small}"
+      },
+      "type": "composition"
+    }
+  },
+  "button-tertiary-small": {
+    "frame": {
+      "value": {
+        "height": "{comp.button-tertiary-small.frame.height}",
+        "paddingLeft": "{comp.button-tertiary-small.frame.paddingLeft}",
+        "paddingRight": "{comp.button-tertiary-small.frame.paddingRight}",
+        "fill": "{action.tertiary.background}",
+        "border": "{comp.button-tertiary-small.frame.border}",
+        "borderWidth": "{comp.button-tertiary-small.frame.borderWidth}",
+        "borderRadius": "{comp.button-tertiary-small.frame.borderRadius}"
       },
       "type": "composition"
     },
