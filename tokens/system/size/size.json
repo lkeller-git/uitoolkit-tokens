@@ -1,0 +1,40 @@
+{
+  "sys": {
+    "size": {
+      "action-large-height": {
+        "value": "{ref.size.x100}",
+        "type": "sizing"
+      },
+      "action-small-height": {
+        "value": "{ref.size.x60}",
+        "type": "sizing"
+      },
+      "action-large-padding": {
+        "value": "{ref.size.x40}",
+        "type": "spacing"
+      },
+      "action-small-padding": {
+        "value": "{ref.size.x20}",
+        "type": "spacing"
+      },
+      "action-large-borderRadius": {
+        "value": "{ref.size.x10}",
+        "type": "borderRadius"
+      },
+      "action-small-borderRadius": {
+        "value": "{ref.size.x5}",
+        "type": "borderRadius"
+      },
+      "auto-fill": {
+        "value": "fill",
+        "type": "sizing",
+        "description": "Fills to fit parent container minus any sibling items, item spacing, and inset padding"
+      },
+      "auto-hug": {
+        "value": "hug",
+        "type": "sizing",
+        "description": "Hugs child content plus any item spacing and inset-padding"
+      }
+    }
+  }
+}

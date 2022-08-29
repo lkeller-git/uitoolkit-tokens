@@ -1,0 +1,42 @@
+{
+  "sys": {
+    "color": {
+      "default-background": {
+        "value": "{ref.color.black}",
+        "type": "color"
+      },
+      "default-foreground": {
+        "value": "{ref.color.white}",
+        "type": "color"
+      },
+      "action-primary-foreground": {
+        "value": "{ref.color.black}",
+        "type": "color"
+      },
+      "action-primary-background": {
+        "value": "{ref.color.blue-60}",
+        "type": "color"
+      },
+      "action-secondary-background": {
+        "value": "{ref.color.blue-15}",
+        "type": "color"
+      },
+      "action-secondary-foreground": {
+        "value": "{ref.color.blue-85}",
+        "type": "color"
+      },
+      "action-secondary-border": {
+        "value": "{ref.color.blue-25}",
+        "type": "color"
+      },
+      "action-tertiary-foreground": {
+        "value": "{ref.color.blue-85}",
+        "type": "color"
+      },
+      "action-tertiary-background": {
+        "value": "{sys.color.default-background}",
+        "type": "color"
+      }
+    }
+  }
+}
