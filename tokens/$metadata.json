@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "reference/ref-core",
+    "reference/font/font-ios",
+    "reference/font/font-android",
+    "reference/font/font-web",
+    "system/font/font",
+    "system/color/color-light",
+    "system/color/color-dark",
+    "system/size/size",
+    "component/button",
+    "figma/figma"
+  ]
+}

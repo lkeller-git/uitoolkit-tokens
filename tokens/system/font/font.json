@@ -1,0 +1,32 @@
+{
+  "sys": {
+    "font": {
+      "label-large": {
+        "value": {
+          "fontFamily": "{ref.font.40-500.fontFamily}",
+          "fontWeight": "{ref.font.40-500.fontWeight}",
+          "lineHeight": "{ref.font.40-500.lineHeight}",
+          "fontSize": "{ref.font.40-500.fontSize}",
+          "letterSpacing": "{ref.font.40-500.letterSpacing}",
+          "paragraphSpacing": "{ref.font.40-500.paragraphSpacing}",
+          "textDecoration": "{ref.font.40-500.textDecoration}",
+          "textCase": "{ref.font.40-500.textCase}"
+        },
+        "type": "typography"
+      },
+      "label-small": {
+        "value": {
+          "fontFamily": "{ref.font.30-500.fontFamily}",
+          "fontWeight": "{ref.font.30-500.fontWeight}",
+          "lineHeight": "{ref.font.30-500.lineHeight}",
+          "fontSize": "{ref.font.30-500.fontSize}",
+          "letterSpacing": "{ref.font.30-500.letterSpacing}",
+          "paragraphSpacing": "{ref.font.30-500.paragraphSpacing}",
+          "textDecoration": "{ref.font.30-500.textDecoration}",
+          "textCase": "{ref.font.30-500.textCase}"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "ref": {
+    "font": {
+      "family-web": {
+        "value": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+        "type": "fontFamilies"
+      },
+      "40-500": {
+        "fontFamily": {
+          "value": "{ref.font.family-web}",
+          "type": "fontFamilies"
+        },
+        "lineHeight": {
+          "value": "{ref.font.40-500.fontSize}*1.5",
+          "type": "lineHeights"
+        },
+        "fontWeight": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "{ref.size.x40}",
+          "type": "fontSizes"
+        },
+        "letterSpacing": {
+          "value": "0",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": "0",
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      },
+      "30-500": {
+        "fontFamily": {
+          "value": "{ref.font.family-web}",
+          "type": "fontFamilies"
+        },
+        "lineHeight": {
+          "value": "{ref.font.30-500.fontSize}*1.5",
+          "type": "lineHeights"
+        },
+        "fontWeight": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "fontSize": {
+          "value": "{ref.size.x30}",
+          "type": "fontSizes"
+        },
+        "letterSpacing": {
+          "value": "0",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": "0",
+          "type": "paragraphSpacing"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        }
+      }
+    }
+  }
+}

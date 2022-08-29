@@ -1,0 +1,84 @@
+[
+  {
+    "id": "0ee54bc53d09282c4f2f9ed6a69ac43e721696e2",
+    "name": "light",
+    "selectedTokenSets": {
+      "reference/ref-core": "source",
+      "system/color/color-dark": "disabled",
+      "system/color/color-light": "enabled",
+      "system/font/font": "disabled",
+      "component/button": "disabled",
+      "figma/figma": "disabled",
+      "reference/font/font-ios": "disabled",
+      "reference/font/font-android": "disabled",
+      "reference/font/font-web": "disabled",
+      "system/size/size": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "sys.color.action-foreground": "S:7fe4da5337c1caca629b563085f1fc9d8d378eda,",
+      "sys.color.action-background": "S:c9a6e94e5cfbd81c93e6fd8dd2cdf313263b2c7e,",
+      "sys.color.default-background": "S:6267286e7b560bbb2221efc1df6be1f7b6a40fe3,",
+      "sys.color.default-foreground": "S:a3b72d866d45d7cdf12d43157da1a77bb14f1c7b,"
+    }
+  },
+  {
+    "id": "e42e572a5275f7258c0d2d99a90d0b9238f02c89",
+    "name": "dark",
+    "selectedTokenSets": {
+      "reference/ref-core": "source",
+      "system/color/color-light": "disabled",
+      "system/color/color-dark": "enabled",
+      "system/font/font": "disabled",
+      "component/button": "disabled",
+      "figma/figma": "disabled",
+      "reference/font/font-ios": "disabled",
+      "reference/font/font-android": "disabled",
+      "reference/font/font-web": "disabled",
+      "system/size/size": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "sys.color.action-foreground": "S:0bf7a114ae41b4f31092c2cf63bbe5c381ff5677,",
+      "sys.color.action-background": "S:179726490704b288c001b05cbdde52afd8a8096b,",
+      "sys.color.default-background": "S:f7973b5f12202e396254b97d8138aec8587513b7,",
+      "sys.color.default-foreground": "S:8f25cf710b83bae755a4a275895220f5f4961a65,"
+    }
+  },
+  {
+    "id": "4a7658d5205fbe4a8d4b48dee4664b818f01f23d",
+    "name": "figma",
+    "selectedTokenSets": {
+      "reference/ref-core": "source",
+      "system/color/color-light": "source",
+      "system/color/color-dark": "disabled",
+      "system/font/font": "source",
+      "component/button": "source",
+      "figma/figma": "enabled",
+      "reference/font/font-ios": "source",
+      "reference/font/font-android": "disabled",
+      "reference/font/font-web": "disabled",
+      "system/size/size": "disabled"
+    },
+    "$figmaStyleReferences": {
+      "figma.default-background": "S:1039120b3a34faaa7927657bd929dae1b68bd847,",
+      "figma.default-foreground": "S:4d98f38e0a27b6ee92e72137bdf456129685bd23,",
+      "figma.action-primary-foreground": "S:0ce70eaa6e405780f4d88b57a4b9c013624b551e,",
+      "figma.action-primary-background": "S:aa7c180894f6f5bf540b61dac47a13542d41d70e,",
+      "figma.action-secondary-background": "S:7afa76350e2d34c603b5879be502d0fff8460000,",
+      "figma.action-secondary-foreground": "S:0b1d9867277b2348a9a9170bc8d09ad40c28bd3c,",
+      "figma.action-secondary-border": "S:e4fda3a7c3f2baedcededb5d1f8da6f9dbd389f8,",
+      "figma.action-tertiary-foreground": "S:822d0f5a3864b57e33e547598f5962866ad45c8f,",
+      "figma.action-tertiary-background": "S:427933a93e537c344a2f3199f542e10e191ef8b6,",
+      "figma.dark.default-background": "S:c91543e7f5e9bf592598c59f1469e8bc89bde503,",
+      "figma.dark.default-foreground": "S:8ef471531f80dc856a9875765e09ed16236fde3f,",
+      "figma.dark.action-primary-foreground": "S:a960d810ca648178c6bd3372459380fd824ddb40,",
+      "figma.dark.action-primary-background": "S:cf332fcf7ae19d8d4d76877d4b0eb879f7c591fb,",
+      "figma.dark.action-secondary-background": "S:e2f8464a1ed3f3d90b550b9d037bdaaf81896e54,",
+      "figma.dark.action-secondary-foreground": "S:ce3b2d4948539075eb2fda101e9c4aa1486dd9dd,",
+      "figma.dark.action-secondary-border": "S:d658b4ddb00ba677fa9e2e0ff5250fbb2ca385a2,",
+      "figma.dark.action-tertiary-foreground": "S:349c60c6ac0bec7d42eff8faf79d1f08c1fd1675,",
+      "figma.dark.action-tertiary-background": "S:a3429c5a7f2189f06820a6febd1085aa0ce7dde6,",
+      "figma.label-large": "S:bfeffd4cf515a7d68b001f86f398a1b968e7cc2b,",
+      "figma.label-small": "S:c88bd6b6b154a97275bbde34b5db0ba1bb39c32c,"
+    }
+  }
+]
