@@ -13,10 +13,12 @@
         "height": "{sys.size.action-large-height}",
         "paddingLeft": "{sys.size.action-large-padding}",
         "paddingRight": "{sys.size.action-large-padding}",
+        "paddingTop": "0",
+        "paddingBottom": "0",
         "fill": "{action.primary.background}",
         "border": "none",
-        "borderRadius": "{sys.size.action-large-borderRadius}",
-        "borderWidth": "0"
+        "borderWidth": "0",
+        "borderRadius": "{sys.size.action-large-borderRadius}"
       },
       "type": "composition"
     },
