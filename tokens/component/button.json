@@ -119,7 +119,7 @@
           "type": "borderWidth"
         },
         "borderRadius": {
-          "value": "{sys.size.action-large-borderRadius}",
+          "value": "0",
           "type": "borderRadius"
         },
         "width": {
@@ -257,7 +257,7 @@
           "type": "borderWidth"
         },
         "borderRadius": {
-          "value": "{sys.size.action-small-borderRadius}",
+          "value": "0",
           "type": "borderRadius"
         },
         "width": {
