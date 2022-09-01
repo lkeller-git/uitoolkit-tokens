@@ -1,10 +1,9 @@
 {
   "tokenSetOrder": [
     "reference/ref-core",
-    "reference/font/font-ios",
-    "reference/font/font-android",
-    "reference/font/font-web",
-    "system/font/font",
+    "system/font/platform/font-ios",
+    "system/font/platform/font-android",
+    "system/font/platform/font-web",
     "system/color/color-light",
     "system/color/color-dark",
     "system/size/size",

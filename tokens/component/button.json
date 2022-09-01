@@ -41,7 +41,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{label-large}",
+          "value": {
+            "fontFamily": "{sys.font.label-large.fontFamily}",
+            "fontWeight": "{sys.font.label-large.fontWeight}",
+            "lineHeight": "{sys.font.label-large.lineHeight}",
+            "fontSize": "{sys.font.label-large.fontSize}",
+            "letterSpacing": "{sys.font.label-large.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-large.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-large.textDecoration}",
+            "textCase": "{sys.font.label-large.textCase}"
+          },
           "type": "typography"
         }
       }
@@ -87,7 +96,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{sys.font.label-large}",
+          "value": {
+            "fontFamily": "{sys.font.label-large.fontFamily}",
+            "fontWeight": "{sys.font.label-large.fontWeight}",
+            "lineHeight": "{sys.font.label-large.lineHeight}",
+            "fontSize": "{sys.font.label-large.fontSize}",
+            "letterSpacing": "{sys.font.label-large.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-large.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-large.textDecoration}",
+            "textCase": "{sys.font.label-large.textCase}"
+          },
           "type": "typography"
         }
       }
@@ -119,7 +137,7 @@
           "type": "borderWidth"
         },
         "borderRadius": {
-          "value": "{sys.size.action-large-borderRadius}",
+          "value": "0",
           "type": "borderRadius"
         },
         "width": {
@@ -133,7 +151,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{sys.font.label-large}",
+          "value": {
+            "fontFamily": "{sys.font.label-large.fontFamily}",
+            "fontWeight": "{sys.font.label-large.fontWeight}",
+            "lineHeight": "{sys.font.label-large.lineHeight}",
+            "fontSize": "{sys.font.label-large.fontSize}",
+            "letterSpacing": "{sys.font.label-large.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-large.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-large.textDecoration}",
+            "textCase": "{sys.font.label-large.textCase}"
+          },
           "type": "typography"
         }
       }
@@ -179,7 +206,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{label-small}",
+          "value": {
+            "fontFamily": "{sys.font.label-small.fontFamily}",
+            "fontWeight": "{sys.font.label-small.fontWeight}",
+            "lineHeight": "{sys.font.label-small.lineHeight}",
+            "fontSize": "{sys.font.label-small.fontSize}",
+            "letterSpacing": "{sys.font.label-small.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-small.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-small.textDecoration}",
+            "textCase": "{sys.font.label-small.textCase}"
+          },
           "type": "typography"
         }
       }
@@ -225,7 +261,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{sys.font.label-small}",
+          "value": {
+            "fontFamily": "{sys.font.label-small.fontFamily}",
+            "fontWeight": "{sys.font.label-small.fontWeight}",
+            "lineHeight": "{sys.font.label-small.lineHeight}",
+            "fontSize": "{sys.font.label-small.fontSize}",
+            "letterSpacing": "{sys.font.label-small.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-small.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-small.textDecoration}",
+            "textCase": "{sys.font.label-small.textCase}"
+          },
           "type": "typography"
         }
       }
@@ -257,7 +302,7 @@
           "type": "borderWidth"
         },
         "borderRadius": {
-          "value": "{sys.size.action-small-borderRadius}",
+          "value": "0",
           "type": "borderRadius"
         },
         "width": {
@@ -271,7 +316,16 @@
           "type": "color"
         },
         "typography": {
-          "value": "{sys.font.label-small}",
+          "value": {
+            "fontFamily": "{sys.font.label-small.fontFamily}",
+            "fontWeight": "{sys.font.label-small.fontWeight}",
+            "lineHeight": "{sys.font.label-small.lineHeight}",
+            "fontSize": "{sys.font.label-small.fontSize}",
+            "letterSpacing": "{sys.font.label-small.letterSpacing}",
+            "paragraphSpacing": "{sys.font.label-small.paragraphSpacing}",
+            "textDecoration": "{sys.font.label-small.textDecoration}",
+            "textCase": "{sys.font.label-small.textCase}"
+          },
           "type": "typography"
         }
       }

@@ -1,17 +1,13 @@
 {
-  "ref": {
+  "sys": {
     "font": {
-      "family-ios": {
-        "value": "SF Pro",
-        "type": "fontFamilies"
-      },
-      "40-500": {
+      "label-large": {
         "fontFamily": {
-          "value": "{ref.font.family-ios}",
+          "value": "{ref.font.family-android}",
           "type": "fontFamilies"
         },
         "lineHeight": {
-          "value": "{ref.font.40-500.fontSize}*1.5",
+          "value": "{sys.font.label-large.fontSize}*1.5",
           "type": "lineHeights"
         },
         "fontWeight": {
@@ -39,13 +35,13 @@
           "type": "textCase"
         }
       },
-      "30-500": {
+      "label-small": {
         "fontFamily": {
-          "value": "{ref.font.family-ios}",
+          "value": "{ref.font.family-android}",
           "type": "fontFamilies"
         },
         "lineHeight": {
-          "value": "{ref.font.30-500.fontSize}*1.5",
+          "value": "{sys.font.label-small.fontSize}*1.5",
           "type": "lineHeights"
         },
         "fontWeight": {

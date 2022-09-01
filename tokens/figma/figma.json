@@ -1,22 +1,42 @@
 {
   "label-large": {
-    "value": "{sys.font.label-large}",
+    "value": {
+      "fontFamily": "{sys.font.label-large.fontFamily}",
+      "fontWeight": "{sys.font.label-large.fontWeight}",
+      "lineHeight": "{sys.font.label-large.lineHeight}",
+      "fontSize": "{sys.font.label-large.fontSize}",
+      "letterSpacing": "{sys.font.label-large.letterSpacing}",
+      "paragraphSpacing": "{sys.font.label-large.paragraphSpacing}",
+      "textDecoration": "{sys.font.label-large.textDecoration}",
+      "textCase": "{sys.font.label-large.textCase}"
+    },
     "type": "typography"
   },
   "label-small": {
-    "value": "{sys.font.label-small}",
+    "value": {
+      "fontFamily": "{sys.font.label-small.fontFamily}",
+      "fontWeight": "{sys.font.label-small.fontWeight}",
+      "lineHeight": "{sys.font.label-small.lineHeight}",
+      "fontSize": "{sys.font.label-small.fontSize}",
+      "letterSpacing": "{sys.font.label-small.letterSpacing}",
+      "paragraphSpacing": "{sys.font.label-small.paragraphSpacing}",
+      "textDecoration": "{sys.font.label-small.textDecoration}",
+      "textCase": "{sys.font.label-small.textCase}"
+    },
     "type": "typography"
   },
   "button-primary-large": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-large-height}",
-        "paddingLeft": "{sys.size.action-large-padding}",
-        "paddingRight": "{sys.size.action-large-padding}",
+        "height": "{comp.button-primary-large.frame.height}",
+        "paddingLeft": "{comp.button-primary-large.frame.paddingLeft}",
+        "paddingRight": "{comp.button-primary-large.frame.paddingRight}",
+        "paddingTop": "0",
+        "paddingBottom": "0",
         "fill": "{action.primary.background}",
-        "border": "none",
-        "borderRadius": "{sys.size.action-large-borderRadius}",
-        "borderWidth": "0"
+        "border": "{comp.button-primary-large.frame.border}",
+        "borderWidth": "{comp.button-primary-large.frame.borderWidth}",
+        "borderRadius": "{comp.button-primary-large.frame.borderRadius}"
       },
       "type": "composition"
     },
@@ -31,13 +51,15 @@
   "button-secondary-large": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-large-height}",
-        "paddingLeft": "{sys.size.action-large-padding}",
-        "paddingRight": "{sys.size.action-large-padding}",
+        "height": "{comp.button-secondary-large.frame.height}",
+        "paddingLeft": "{comp.button-secondary-large.frame.paddingLeft}",
+        "paddingRight": "{comp.button-secondary-large.frame.paddingRight}",
+        "paddingTop": "0",
+        "paddingBottom": "0",
         "fill": "{action.secondary.background}",
         "border": "{action.secondary.border}",
-        "borderWidth": "1px",
-        "borderRadius": "{sys.size.action-large-borderRadius}"
+        "borderWidth": "{comp.button-secondary-large.frame.borderWidth}",
+        "borderRadius": "{comp.button-secondary-large.frame.borderRadius}"
       },
       "type": "composition"
     },
@@ -52,13 +74,15 @@
   "button-tertiary-large": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-large-height}",
-        "paddingLeft": "0",
-        "paddingRight": "0",
+        "height": "{comp.button-tertiary-large.frame.height}",
+        "paddingLeft": "{comp.button-tertiary-large.frame.paddingLeft}",
+        "paddingRight": "{comp.button-tertiary-large.frame.paddingRight}",
+        "paddingTop": "0",
+        "paddingBottom": "0",
         "fill": "{action.tertiary.background}",
-        "border": "none",
-        "borderWidth": "0",
-        "borderRadius": "{sys.size.action-large-borderRadius}"
+        "border": "{comp.button-tertiary-large.frame.border}",
+        "borderWidth": "{comp.button-tertiary-large.frame.borderWidth}",
+        "borderRadius": "{comp.button-tertiary-large.frame.borderRadius}"
       },
       "type": "composition"
     },
@@ -73,13 +97,13 @@
   "button-primary-small": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-small-height}",
-        "paddingLeft": "{sys.size.action-small-padding}",
-        "paddingRight": "{sys.size.action-small-padding}",
+        "height": "{comp.button-primary-small.frame.height}",
+        "paddingLeft": "{comp.button-primary-small.frame.paddingLeft}",
+        "paddingRight": "{comp.button-primary-small.frame.paddingRight}",
         "fill": "{action.primary.background}",
-        "border": "none",
-        "borderWidth": "0",
-        "borderRadius": "{sys.size.action-small-borderRadius}"
+        "border": "{comp.button-primary-small.frame.border}",
+        "borderWidth": "{comp.button-primary-small.frame.borderWidth}",
+        "borderRadius": "{comp.button-primary-small.frame.borderRadius}"
       },
       "type": "composition"
     },
@@ -94,13 +118,13 @@
   "button-secondary-small": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-small-height}",
-        "paddingLeft": "{sys.size.action-small-padding}",
-        "paddingRight": "{sys.size.action-small-padding}",
+        "height": "{comp.button-secondary-small.frame.height}",
+        "paddingLeft": "{comp.button-secondary-small.frame.paddingLeft}",
+        "paddingRight": "{comp.button-secondary-small.frame.paddingRight}",
         "fill": "{action.secondary.background}",
         "border": "{action.secondary.border}",
-        "borderWidth": "1px",
-        "borderRadius": "{sys.size.action-small-borderRadius}"
+        "borderWidth": "{comp.button-secondary-small.frame.borderWidth}",
+        "borderRadius": "{comp.button-secondary-small.frame.borderRadius}"
       },
       "type": "composition"
     },
@@ -115,13 +139,13 @@
   "button-tertiary-small": {
     "frame": {
       "value": {
-        "height": "{sys.size.action-small-height}",
-        "paddingLeft": "0",
-        "paddingRight": "0",
+        "height": "{comp.button-tertiary-small.frame.height}",
+        "paddingLeft": "{comp.button-tertiary-small.frame.paddingLeft}",
+        "paddingRight": "{comp.button-tertiary-small.frame.paddingRight}",
         "fill": "{action.tertiary.background}",
-        "border": "none",
-        "borderWidth": "0",
-        "borderRadius": "{sys.size.action-small-borderRadius}"
+        "border": "{comp.button-tertiary-small.frame.border}",
+        "borderWidth": "{comp.button-tertiary-small.frame.borderWidth}",
+        "borderRadius": "{comp.button-tertiary-small.frame.borderRadius}"
       },
       "type": "composition"
     },
