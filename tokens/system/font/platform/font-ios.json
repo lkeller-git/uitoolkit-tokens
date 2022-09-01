@@ -1,21 +1,17 @@
 {
-  "ref": {
+  "sys": {
     "font": {
-      "family-android": {
-        "value": "Roboto",
-        "type": "fontFamilies"
-      },
-      "40-500": {
+      "label-large": {
         "fontFamily": {
-          "value": "{ref.font.family-android}",
+          "value": "{ref.font.family-ios}",
           "type": "fontFamilies"
         },
         "lineHeight": {
-          "value": "{ref.font.40-500.fontSize}*1.5",
+          "value": "{sys.font.label-large.fontSize}*1.5",
           "type": "lineHeights"
         },
         "fontWeight": {
-          "value": "500",
+          "value": "Medium",
           "type": "fontWeights"
         },
         "fontSize": {
@@ -39,17 +35,17 @@
           "type": "textCase"
         }
       },
-      "30-500": {
+      "label-small": {
         "fontFamily": {
-          "value": "{ref.font.family-android}",
+          "value": "{ref.font.family-ios}",
           "type": "fontFamilies"
         },
         "lineHeight": {
-          "value": "{ref.font.30-500.fontSize}*1.5",
+          "value": "{sys.font.label-small.fontSize}*1.5",
           "type": "lineHeights"
         },
         "fontWeight": {
-          "value": "500",
+          "value": "Medium",
           "type": "fontWeights"
         },
         "fontSize": {

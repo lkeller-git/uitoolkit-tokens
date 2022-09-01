@@ -34,6 +34,20 @@
         "type": "color"
       }
     },
+    "font": {
+      "family-ios": {
+        "value": "SF Pro",
+        "type": "fontFamilies"
+      },
+      "family-android": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "family-web": {
+        "value": "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+        "type": "fontFamilies"
+      }
+    },
     "size": {
       "x0": {
         "value": "0",
